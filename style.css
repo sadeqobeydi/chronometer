@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Oswald:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+}
+body{
+    background-color:  lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    user-select:none
+}
+.continer-hours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: inset 5px  5px 4px #b1b1b1 , inset -5px  -5px 4px #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+}
+.continer-button{
+    margin-top: 20px;
+}
+button{
+    background-color: transparent;
+    margin: 0 5px;
+    padding: 5px 8px;
+    font-weight: bold;
+    border-radius:10px;
+    border: none;
+    box-shadow:  8px 8px 15px #b1b1b1,-8px -8px 15px #ffffff;
+    cursor: pointer;
+    padding: 5px;
+
+}
+#reset:hover{
+    background-image: linear-gradient(to bottom , #ffd900 , #ff7300 );
+}
+#start:hover{
+    background-image: linear-gradient(to bottom , #66ff00 , #00ffb3 );   
+}
+#stop:hover{
+    background-image: linear-gradient(to bottom , #00ffdd , #00aeff );   
+}
+.timer{
+
+    border-radius: 10px;
+    text-align: center;
+    width: 60px;
+    /* box-shadow: inset 5px  5px 4px #b1b1b1 , inset -5px  -5px 4px #ffffff; */
+}
